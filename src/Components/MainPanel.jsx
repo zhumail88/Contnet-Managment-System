@@ -1,13 +1,13 @@
 import React from 'react'
 import '../csss/MainPanel.css'
+import OpeningPage from './OpeningPage'
 import '../csss/SidePanel.css'
-import ProfileInfo from './SideBarComponents/ProfileInfo'
 
 export default function MainPanel() {
   return (
     <>
         <div className="ContentArea">
-            <ProfileInfo />
+            <OpeningPage/>
         </div>
     </>    
   )

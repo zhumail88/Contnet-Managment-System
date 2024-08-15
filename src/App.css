@@ -4,7 +4,21 @@
 }
 
 .ContentContainer{
+   
     display: flex;
     justify-content: flex-start;
     
 }
+.MainContent{
+    width: 100%;
+    height: 100%;
+}
+.bahriaLogoOnOpen{
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
