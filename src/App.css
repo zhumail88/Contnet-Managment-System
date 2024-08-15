@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ContentContainer{
+    display: flex;
+    justify-content: flex-start;
+    
+}

@@ -1,0 +1,45 @@
+hr{
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    border: none;
+}
+.profileInfoHeading{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.profileInformation img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 2 solid black;
+    
+}
+.profileInformation img:hover{
+    transform: scale(1.07);
+    transition: all 0.3s ease;
+    border-radius: 0;
+}
+
+
+.profileInformation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+.profileInformation p{
+
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}

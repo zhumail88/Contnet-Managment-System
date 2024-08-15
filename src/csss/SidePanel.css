@@ -1,0 +1,72 @@
+.SideContainer {
+  width: 300px;
+  height: calc(100vh - 18vh); 
+  background-color: #324744;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  top: 30; 
+  left: 0;
+  overflow: hidden; 
+}
+
+.buttons {
+  flex: 1;
+  overflow-y: auto; 
+  padding-right: 10px; 
+}
+
+
+.buttons::-webkit-scrollbar {
+  width: 0px; 
+  transition: width 0.3s ease;
+}
+
+.buttons:hover::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.buttons::-webkit-scrollbar-thumb {
+  background-color: #2c7f68;
+  border-radius: 10px;
+}
+
+.buttons::-webkit-scrollbar-track {
+  background-color: #324744;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.menu-item {
+  margin-bottom: 10px;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item a:hover {
+  background-color: #344f4e;
+}
+
+.footer {
+  font-size: 0.8em;
+  color: #999;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 10px; 
+  
+}
